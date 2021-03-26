@@ -12,3 +12,7 @@ for (const i in todoList) {
     }
 }
 
+for (const i in completedTodos) {
+    const {todo} = completedTodos[i]
+    console.log(todo)
+}
