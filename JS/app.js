@@ -6,4 +6,9 @@ const todoList = [
 ]
 const completedTodos = []
 
+for (const i in todoList) {
+    if (todoList[i].status === "complete") {
+        completedTodos.push(todoList[i])
+    }
+}
 
